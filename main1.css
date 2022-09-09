@@ -198,7 +198,7 @@ main {
     color: var(--lowblack);
 }
 
-#comps .comp .content2 .text2:not(:read-only) {
+#pends .pend .content2 .text2:not(:read-only) {
     color: var(--lowblack);
 }
 
@@ -304,7 +304,6 @@ main {
     font-size: large;
     border-radius: 0.5rem;
     padding: 5px;
-    icon: 10x;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -314,7 +313,6 @@ main {
     font-size: large;
     border-radius: 0.5rem;
     padding: 5px;
-    icon: 10x;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -335,9 +333,10 @@ main {
     display: flex;
     justify-content :space-between;
     padding: 1rem 0px;
-    color: #457A47;
+    color: #050020;
 }
 #filters span{
+    border-radius: 0.5rem;
     margin: 0 8px;
     font-size:1.3rem;
     cursor:pointer;
